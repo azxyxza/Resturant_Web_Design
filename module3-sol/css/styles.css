@@ -1,0 +1,143 @@
+body {
+  font-size: 16px;
+  color: #1f377a;
+  background-color: #a8f0d4;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #47ebe9;
+  border-radius: 1px;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 70px;
+}
+.navbar-brand h1 { /* name */
+  font-family: 'Lora', serif;
+  color: #3394cc;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #111a33;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#myname { 
+  color: #000;
+  text-transform: uppercase;
+  font-size: 0.8em;
+ 
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: left;
+  margin-top: -30px;
+}
+/* END HEADER */
+h2 {
+  text-shadow: 1px 1px 1px #334e99;
+}
+section {
+  background-color: #e2fdf3;
+  height: 1000px;
+  margin: 20px 10px 20px 10px;
+  border: #44eae9;
+  border-style: ridge;
+}
+
+section > header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 30px 10px 10px;
+}
+
+article {
+  margin: 20px;
+}
+/* END HOME PAGE */
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  
+  #myname {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+ 
+  #main-content {
+    margin: 0 50px 0 50px;
+  }
+
+  #main-content section header {
+    padding-top: 20px;
+  }
+
+}
+  /* End Header */
+
+
+  /* Home Page */
+  .container {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+/********** medium devices only **********/
+ @media (min-width: 1000px) {
+
+}
+/********** large devices only **********/
+@media (min-width: 768px) and (man-width: 999px){
+
+ 
+}
